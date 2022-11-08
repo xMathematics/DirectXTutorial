@@ -1,7 +1,7 @@
 # ninja log v5
 10	156	6896127038840947	CMakeFiles/DirectXTutorial.dir/src/Sources/GameTimer.cpp.obj	e1df9f2425eeba27
+6	442	6896127933070202	CMakeFiles/DirectXTutorial.dir/src/Sources/CpuTimer.cpp.obj	d03f7d54026d0a5f
 8	157	6896127038840947	CMakeFiles/DirectXTutorial.dir/src/Sources/DXTrace.cpp.obj	53e26928f6ac56be
+3	1572	6896127673367276	CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj	28f65fb2b17f283a
 4	157	6896127038836007	CMakeFiles/DirectXTutorial.dir/src/Sources/d3dUtil.cpp.obj	8d476cb3e1200127
 13	164	6896127038930553	CMakeFiles/DirectXTutorial.dir/src/Sources/GameApp.cpp.obj	45918874506250d6
-3	1572	6896127673367276	CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj	28f65fb2b17f283a
-6	442	6896127933070202	CMakeFiles/DirectXTutorial.dir/src/Sources/CpuTimer.cpp.obj	d03f7d54026d0a5f
