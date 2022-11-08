@@ -91,6 +91,13 @@ build CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj: CXX_COMPILER__Dir
   OBJECT_DIR = CMakeFiles\DirectXTutorial.dir
   OBJECT_FILE_DIR = CMakeFiles\DirectXTutorial.dir\src\Sources
 
+build CMakeFiles/DirectXTutorial.dir/src/Sources/CpuTimer.cpp.obj: CXX_COMPILER__DirectXTutorial_Debug D$:/GitHub/DirectXTutorial/src/Sources/CpuTimer.cpp || cmake_object_order_depends_target_DirectXTutorial
+  DEFINES = -DUNICODE -D_UNICODE
+  DEP_FILE = CMakeFiles\DirectXTutorial.dir\src\Sources\CpuTimer.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  OBJECT_DIR = CMakeFiles\DirectXTutorial.dir
+  OBJECT_FILE_DIR = CMakeFiles\DirectXTutorial.dir\src\Sources
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DirectXTutorial
@@ -99,7 +106,7 @@ build CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj: CXX_COMPILER__Dir
 #############################################
 # Link the executable DirectXTutorial.exe
 
-build DirectXTutorial.exe: CXX_EXECUTABLE_LINKER__DirectXTutorial_Debug CMakeFiles/DirectXTutorial.dir/src/Sources/d3dApp.cpp.obj CMakeFiles/DirectXTutorial.dir/src/Sources/d3dUtil.cpp.obj CMakeFiles/DirectXTutorial.dir/src/Sources/DXTrace.cpp.obj CMakeFiles/DirectXTutorial.dir/src/Sources/GameApp.cpp.obj CMakeFiles/DirectXTutorial.dir/src/Sources/GameTimer.cpp.obj CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj
+build DirectXTutorial.exe: CXX_EXECUTABLE_LINKER__DirectXTutorial_Debug CMakeFiles/DirectXTutorial.dir/src/Sources/d3dApp.cpp.obj CMakeFiles/DirectXTutorial.dir/src/Sources/d3dUtil.cpp.obj CMakeFiles/DirectXTutorial.dir/src/Sources/DXTrace.cpp.obj CMakeFiles/DirectXTutorial.dir/src/Sources/GameApp.cpp.obj CMakeFiles/DirectXTutorial.dir/src/Sources/GameTimer.cpp.obj CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj CMakeFiles/DirectXTutorial.dir/src/Sources/CpuTimer.cpp.obj
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = -llib/d3d11.lib  -llib/dxgi.lib  -llib/dxguid.lib  -llib/D3DCompiler.lib  -llib/winmm.lib  -llib/d2d1.lib  -llib/dwrite.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

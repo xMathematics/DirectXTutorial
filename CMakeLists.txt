@@ -33,7 +33,7 @@ endif()
 add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
 file(COPY ${HLSL_DIR} DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 file(GLOB HLSL_FILES ${HLSL_DIR}/*.hlsl)
-file(GLOB HEADER_FILES ./*.h)
+file(GLOB HEADER_FILES ./src/Header/*.h)
 
 aux_source_directory(. DIR_SRCS)
 
@@ -44,16 +44,21 @@ add_executable(
         ${HEADER_FILES}
 
         src/Header/d3dApp.h
-        src/Sources/d3dApp.cpp
-        src/Sources/d3dUtil.cpp
         src/Header/d3dUtil.h
-        src/Sources/DXTrace.cpp
         src/Header/DXTrace.h
-        src/Sources/GameApp.cpp
         src/Header/GameApp.h
         src/Header/GameTimer.h
+        src/Header/CpuTimer.h
+        src/Header/WinMin.h
+
+        src/Sources/d3dApp.cpp
+        src/Sources/d3dUtil.cpp
+        src/Sources/DXTrace.cpp
+        src/Sources/GameApp.cpp
         src/Sources/GameTimer.cpp
-        src/Sources/Main.cpp)
+        src/Sources/Main.cpp
+        src/Sources/CpuTimer.cpp
+)
 
 target_link_libraries(
         ${TARGET_NAME}
