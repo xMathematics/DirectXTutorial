@@ -5,6 +5,7 @@
 #include "../Header/d3dUtil.h"
 #include "../Header/DXTrace.h"
 #include <cassert>
+
 GameApp::GameApp(HINSTANCE hInstance, const std::wstring& windowName, int initWidth, int initHeight)
         : D3DApp(hInstance, windowName, initWidth, initHeight)
 {
