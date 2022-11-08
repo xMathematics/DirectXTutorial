@@ -1,0 +1,8 @@
+//
+// Created by Dongz on 2022/11/8.
+//
+
+#ifndef DIRECTXTUTORIAL_D3DUTIL_H
+#define DIRECTXTUTORIAL_D3DUTIL_H
+
+#endif //DIRECTXTUTORIAL_D3DUTIL_H

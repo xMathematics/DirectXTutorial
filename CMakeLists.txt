@@ -37,8 +37,34 @@ file(GLOB HEADER_FILES ./*.h)
 
 aux_source_directory(. DIR_SRCS)
 
-add_executable(${TARGET_NAME} WIN32 ${DIR_SRCS} ${HEADER_FILES})
-target_link_libraries(${TARGET_NAME} d3d11.lib dxgi.lib dxguid.lib D3DCompiler.lib winmm.lib d2d1.lib dwrite.lib)
+add_executable(
+        ${TARGET_NAME}
+        WIN32
+        ${DIR_SRCS}
+        ${HEADER_FILES}
+
+        src/Header/d3dApp.h
+        src/Sources/d3dApp.cpp
+        src/Sources/d3dUtil.cpp
+        src/Header/d3dUtil.h
+        src/Sources/DXTrace.cpp
+        src/Header/DXTrace.h
+        src/Sources/GameApp.cpp
+        src/Header/GameApp.h
+        src/Header/GameTimer.h
+        src/Sources/GameTimer.cpp
+        src/Sources/Main.cpp)
+
+target_link_libraries(
+        ${TARGET_NAME}
+        lib/d3d11.lib
+        lib/dxgi.lib
+        lib/dxguid.lib
+        lib/D3DCompiler.lib
+        lib/winmm.lib
+        lib/d2d1.lib
+        lib/dwrite.lib
+)
 source_group("HLSL Files" FILES ${HLSL_FILES})
 file(COPY ${HLSL_DIR} DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 # 输出文件名

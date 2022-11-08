@@ -1,0 +1,8 @@
+//
+// Created by Dongz on 2022/11/8.
+//
+
+#ifndef DIRECTXTUTORIAL_DXTRACE_H
+#define DIRECTXTUTORIAL_DXTRACE_H
+
+#endif //DIRECTXTUTORIAL_DXTRACE_H

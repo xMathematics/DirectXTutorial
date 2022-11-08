@@ -1,0 +1,8 @@
+//
+// Created by Dongz on 2022/11/8.
+//
+
+#ifndef DIRECTXTUTORIAL_GAMEAPP_H
+#define DIRECTXTUTORIAL_GAMEAPP_H
+
+#endif //DIRECTXTUTORIAL_GAMEAPP_H
