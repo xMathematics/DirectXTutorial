@@ -1,13 +1,12 @@
 # ninja log v5
-8	483	6900571180675511	CMakeFiles/DirectXTutorial.dir/src/Sources/CpuTimer.cpp.obj	d03f7d54026d0a5f
-10	156	6896127038840947	CMakeFiles/DirectXTutorial.dir/src/Sources/GameTimer.cpp.obj	e1df9f2425eeba27
-7	1344	6900571189295422	CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj	28f65fb2b17f283a
-6	913	6900569820497079	CMakeFiles/DirectXTutorial.dir/src/Sources/DXTrace.cpp.obj	53e26928f6ac56be
-4	157	6896127038836007	CMakeFiles/DirectXTutorial.dir/src/Sources/d3dUtil.cpp.obj	8d476cb3e1200127
+14	693	6900585450522657	CMakeFiles/DirectXTutorial.dir/src/Sources/CpuTimer.cpp.obj	bb6e808534c5a11a
+7	141	6900585445004880	CMakeFiles/DirectXTutorial.dir/src/Sources/GameTimer.cpp.obj	7ef502b6b2ed6abe
+16	1789	6900585461486101	CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj	5e8fd3f252432666
+9	868	6900585452272734	CMakeFiles/DirectXTutorial.dir/src/Sources/DXTrace.cpp.obj	872e3bd5351d73d1
+5	134	6900585444928651	CMakeFiles/DirectXTutorial.dir/src/Sources/d3dUtil.cpp.obj	ab64fc48c3367c59
 8	1407	6900566084013405	CMakeFiles/DirectXTutorial.dir/src/Sources/GameApp.cpp.obj	45918874506250d6
-0	107	6900580448876713	build.ninja	98ce5b500f4f1f39
-10	152	6900581024758265	CMakeFiles/DirectXTutorial.dir/src/Sources/GameTimer.cpp.obj	def35f5c20b6729e
-2	153	6900581024758265	CMakeFiles/DirectXTutorial.dir/src/Sources/d3dUtil.cpp.obj	ac47be821c7aea22
-15	484	6900581028076211	CMakeFiles/DirectXTutorial.dir/src/Sources/CpuTimer.cpp.obj	5d4fa47f724769b7
-13	825	6900581031492609	CMakeFiles/DirectXTutorial.dir/src/Sources/DXTrace.cpp.obj	eec79820d45fd183
-7	1372	6900581036970784	CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj	d6123e21fe9e1762
+0	107	6900587596350438	build.ninja	98ce5b500f4f1f39
+3	54	6900587634024586	CMakeFiles/DirectXTutorial.dir/src/Sources/d3dUtil.cpp.obj	fe3ec0a2e11f8b36
+9	54	6900587634024586	CMakeFiles/DirectXTutorial.dir/src/Sources/GameTimer.cpp.obj	21a650dcefb4f92d
+15	502	6900587638506524	CMakeFiles/DirectXTutorial.dir/src/Sources/CpuTimer.cpp.obj	8f7a8f0e8e668ef9
+7	893	6900587642412542	CMakeFiles/DirectXTutorial.dir/src/Sources/DXTrace.cpp.obj	9f0c014511c74803

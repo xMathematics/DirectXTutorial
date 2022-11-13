@@ -53,7 +53,7 @@ build CMakeFiles/DirectXTutorial.dir/src/Sources/d3dApp.cpp.obj: CXX_COMPILER__D
   DEFINES = -DUNICODE -D_UNICODE
   DEP_FILE = CMakeFiles\DirectXTutorial.dir\src\Sources\d3dApp.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header
+  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header -ID:/GitHub/DirectXTutorial/DirectXMath/Inc -ID:/GitHub/DirectXTutorial/DirectXSDK/Include
   OBJECT_DIR = CMakeFiles\DirectXTutorial.dir
   OBJECT_FILE_DIR = CMakeFiles\DirectXTutorial.dir\src\Sources
 
@@ -61,7 +61,7 @@ build CMakeFiles/DirectXTutorial.dir/src/Sources/d3dUtil.cpp.obj: CXX_COMPILER__
   DEFINES = -DUNICODE -D_UNICODE
   DEP_FILE = CMakeFiles\DirectXTutorial.dir\src\Sources\d3dUtil.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header
+  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header -ID:/GitHub/DirectXTutorial/DirectXMath/Inc -ID:/GitHub/DirectXTutorial/DirectXSDK/Include
   OBJECT_DIR = CMakeFiles\DirectXTutorial.dir
   OBJECT_FILE_DIR = CMakeFiles\DirectXTutorial.dir\src\Sources
 
@@ -69,7 +69,7 @@ build CMakeFiles/DirectXTutorial.dir/src/Sources/DXTrace.cpp.obj: CXX_COMPILER__
   DEFINES = -DUNICODE -D_UNICODE
   DEP_FILE = CMakeFiles\DirectXTutorial.dir\src\Sources\DXTrace.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header
+  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header -ID:/GitHub/DirectXTutorial/DirectXMath/Inc -ID:/GitHub/DirectXTutorial/DirectXSDK/Include
   OBJECT_DIR = CMakeFiles\DirectXTutorial.dir
   OBJECT_FILE_DIR = CMakeFiles\DirectXTutorial.dir\src\Sources
 
@@ -77,7 +77,7 @@ build CMakeFiles/DirectXTutorial.dir/src/Sources/GameApp.cpp.obj: CXX_COMPILER__
   DEFINES = -DUNICODE -D_UNICODE
   DEP_FILE = CMakeFiles\DirectXTutorial.dir\src\Sources\GameApp.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header
+  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header -ID:/GitHub/DirectXTutorial/DirectXMath/Inc -ID:/GitHub/DirectXTutorial/DirectXSDK/Include
   OBJECT_DIR = CMakeFiles\DirectXTutorial.dir
   OBJECT_FILE_DIR = CMakeFiles\DirectXTutorial.dir\src\Sources
 
@@ -85,7 +85,7 @@ build CMakeFiles/DirectXTutorial.dir/src/Sources/GameTimer.cpp.obj: CXX_COMPILER
   DEFINES = -DUNICODE -D_UNICODE
   DEP_FILE = CMakeFiles\DirectXTutorial.dir\src\Sources\GameTimer.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header
+  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header -ID:/GitHub/DirectXTutorial/DirectXMath/Inc -ID:/GitHub/DirectXTutorial/DirectXSDK/Include
   OBJECT_DIR = CMakeFiles\DirectXTutorial.dir
   OBJECT_FILE_DIR = CMakeFiles\DirectXTutorial.dir\src\Sources
 
@@ -93,7 +93,7 @@ build CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj: CXX_COMPILER__Dir
   DEFINES = -DUNICODE -D_UNICODE
   DEP_FILE = CMakeFiles\DirectXTutorial.dir\src\Sources\Main.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header
+  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header -ID:/GitHub/DirectXTutorial/DirectXMath/Inc -ID:/GitHub/DirectXTutorial/DirectXSDK/Include
   OBJECT_DIR = CMakeFiles\DirectXTutorial.dir
   OBJECT_FILE_DIR = CMakeFiles\DirectXTutorial.dir\src\Sources
 
@@ -101,7 +101,7 @@ build CMakeFiles/DirectXTutorial.dir/src/Sources/CpuTimer.cpp.obj: CXX_COMPILER_
   DEFINES = -DUNICODE -D_UNICODE
   DEP_FILE = CMakeFiles\DirectXTutorial.dir\src\Sources\CpuTimer.cpp.obj.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header
+  INCLUDES = -ID:/GitHub/DirectXTutorial/src/Header -ID:/GitHub/DirectXTutorial/DirectXMath/Inc -ID:/GitHub/DirectXTutorial/DirectXSDK/Include
   OBJECT_DIR = CMakeFiles\DirectXTutorial.dir
   OBJECT_FILE_DIR = CMakeFiles\DirectXTutorial.dir\src\Sources
 
@@ -117,7 +117,7 @@ build DirectXTutorial.exe: CXX_EXECUTABLE_LINKER__DirectXTutorial_Debug CMakeFil
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = -llib/d3d11.lib  -llib/d3dx11.lib  -llib/d3dx11d.lib  -llib/dxgi.lib  -llib/dxguid.lib  -llib/d3dcompiler.lib  -llib/winmm.lib  -llib/d2d1.lib  -llib/dwrite.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  LINK_PATH = -LD:/GitHub/DirectXTutorial/lib
+  LINK_PATH = -LD:/GitHub/DirectXTutorial/DirectXSDK/Lib/x64
   OBJECT_DIR = CMakeFiles\DirectXTutorial.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
