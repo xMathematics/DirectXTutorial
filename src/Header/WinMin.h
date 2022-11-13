@@ -42,9 +42,7 @@
 #define NOTAPE
 #endif
 
-#define NOMINMAX
-
-
+//#define NOMINMAX
 #include <Windows.h>
 
 #endif

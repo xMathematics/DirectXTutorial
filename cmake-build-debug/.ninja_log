@@ -1,7 +1,13 @@
 # ninja log v5
+8	483	6900571180675511	CMakeFiles/DirectXTutorial.dir/src/Sources/CpuTimer.cpp.obj	d03f7d54026d0a5f
 10	156	6896127038840947	CMakeFiles/DirectXTutorial.dir/src/Sources/GameTimer.cpp.obj	e1df9f2425eeba27
-6	442	6896127933070202	CMakeFiles/DirectXTutorial.dir/src/Sources/CpuTimer.cpp.obj	d03f7d54026d0a5f
-8	157	6896127038840947	CMakeFiles/DirectXTutorial.dir/src/Sources/DXTrace.cpp.obj	53e26928f6ac56be
-7	1596	6896155390950046	CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj	28f65fb2b17f283a
+7	1344	6900571189295422	CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj	28f65fb2b17f283a
+6	913	6900569820497079	CMakeFiles/DirectXTutorial.dir/src/Sources/DXTrace.cpp.obj	53e26928f6ac56be
 4	157	6896127038836007	CMakeFiles/DirectXTutorial.dir/src/Sources/d3dUtil.cpp.obj	8d476cb3e1200127
-13	164	6896127038930553	CMakeFiles/DirectXTutorial.dir/src/Sources/GameApp.cpp.obj	45918874506250d6
+8	1407	6900566084013405	CMakeFiles/DirectXTutorial.dir/src/Sources/GameApp.cpp.obj	45918874506250d6
+0	107	6900580448876713	build.ninja	98ce5b500f4f1f39
+10	152	6900581024758265	CMakeFiles/DirectXTutorial.dir/src/Sources/GameTimer.cpp.obj	def35f5c20b6729e
+2	153	6900581024758265	CMakeFiles/DirectXTutorial.dir/src/Sources/d3dUtil.cpp.obj	ac47be821c7aea22
+15	484	6900581028076211	CMakeFiles/DirectXTutorial.dir/src/Sources/CpuTimer.cpp.obj	5d4fa47f724769b7
+13	825	6900581031492609	CMakeFiles/DirectXTutorial.dir/src/Sources/DXTrace.cpp.obj	eec79820d45fd183
+7	1372	6900581036970784	CMakeFiles/DirectXTutorial.dir/src/Sources/Main.cpp.obj	d6123e21fe9e1762
